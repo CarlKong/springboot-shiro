@@ -121,6 +121,7 @@ public class ShiroConfig {
         return securityManager;
     }
 
+    //这里使用自定义的Realm和matcher
     @Bean
     public MyShiroRealm myShiroRealm(){
         MyShiroRealm myShiroRealm = new MyShiroRealm();
